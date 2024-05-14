@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  background-color: var(--background-dark); /* Use the dark background from global styles */
+  color: var(--text-color); /* Use the text color from global styles */
+  font-family: 'Lobster', cursive; /* Use the Lobster font from global styles */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -14,18 +22,24 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--header-background); /* Use the header background from global styles */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--text-color); /* Use the text color from global styles */
+  box-shadow: var(--header-shadow); /* Use the header shadow from global styles */
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--primary-color); /* Use the primary color from global styles */
+  transition: color 0.3s ease;
+}
+
+.App-link:hover {
+  color: var(--link-hover-color); /* Use the link hover color from global styles */
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +50,4 @@
     transform: rotate(360deg);
   }
 }
+
