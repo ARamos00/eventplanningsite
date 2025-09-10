@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+Event Planning Site — React (CRA) starter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React starter I built to sketch UI/flows for an event-planning site before moving to the full Next.js build. It’s a learning sandbox: components, layout, and basic front-end behavior without backend wiring.
 
-## Available Scripts
+Bootstrapped with Create React App (CRA). 
+GitHub
 
-In the project directory, you can run:
+Standard CRA scripts (start, build, test, eject). 
+GitHub
 
-### `npm start`
+Minimal structure: src/ for app code, public/ for static assets. 
+GitHub
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+What’s here
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Componentized UI for event-planning pages (hero, sections, forms/placeholders).
 
-### `npm test`
+Lightweight styles (plain CSS) suitable for quick iteration. (Repo language mix shows JS + CSS.) 
+GitHub
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Meant as a prototype to inform the later Next.js version (routing, content blocks, and general UX).
 
-### `npm run build`
+Getting started
+npm install
+npm start            # http://localhost:3000
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+CRA handles hot reload and common dev defaults. 
+GitHub
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Scripts
+npm start   # dev server
+npm test    # jest runner (watch mode)
+npm run build  # production build to /build
+npm run eject  # one-way, exposes configs
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+(These are the standard CRA commands.) 
+GitHub
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Project layout
+/public     # index.html, static assets
+/src        # components, pages, styles, app entry
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+(See repo root for these folders.) 
+GitHub
 
-## Learn More
+Notes / intent
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This repo exists to practice and validate the front-end approach for an event-planning site.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+No backend or CMS here—just the UI and flow ideas that later informed the Next.js build.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Keep it simple: iterate on components, extract what works, and port to the production stack.
