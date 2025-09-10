@@ -1,55 +1,44 @@
-Event Planning Site — React (CRA) starter
+# Event Planning Site — React (CRA) Starter
 
-This is a simple React starter I built to sketch UI/flows for an event-planning site before moving to the full Next.js build. It’s a learning sandbox: components, layout, and basic front-end behavior without backend wiring.
+This is a simple **React** starter I built to sketch UI/flows for an event-planning site before moving the real app to **Next.js**. It’s a learning sandbox: components, layout, and basic front-end behavior (no backend).
 
-Bootstrapped with Create React App (CRA). 
-GitHub
+## What’s Here
 
-Standard CRA scripts (start, build, test, eject). 
-GitHub
+* Componentized UI for event-planning pages (hero/sections/forms/placeholders).
+* Lightweight styling (plain CSS) for quick iteration.
+* Built to explore patterns I later used in the Next.js version.
 
-Minimal structure: src/ for app code, public/ for static assets. 
-GitHub
+## Tech
 
-What’s here
+* **React** (Create React App)
+* **JavaScript + CSS**
+* No backend/CMS — front-end only prototype.
 
-Componentized UI for event-planning pages (hero, sections, forms/placeholders).
+## Getting Started
 
-Lightweight styles (plain CSS) suitable for quick iteration. (Repo language mix shows JS + CSS.) 
-GitHub
-
-Meant as a prototype to inform the later Next.js version (routing, content blocks, and general UX).
-
-Getting started
+```bash
 npm install
-npm start            # http://localhost:3000
+npm start       # runs on http://localhost:3000
+```
 
+## Scripts
 
-CRA handles hot reload and common dev defaults. 
-GitHub
+```bash
+npm start       # dev server with hot reload
+npm test        # run tests in watch mode
+npm run build   # production build to /build
+npm run eject   # one-way: exposes CRA config
+```
 
-Scripts
-npm start   # dev server
-npm test    # jest runner (watch mode)
-npm run build  # production build to /build
-npm run eject  # one-way, exposes configs
+## Project Structure
 
+```
+/public         # index.html, static assets
+/src            # components, pages, styles, app entry (index.js/App.js)
+```
 
-(These are the standard CRA commands.) 
-GitHub
+## Notes / Intent
 
-Project layout
-/public     # index.html, static assets
-/src        # components, pages, styles, app entry
-
-
-(See repo root for these folders.) 
-GitHub
-
-Notes / intent
-
-This repo exists to practice and validate the front-end approach for an event-planning site.
-
-No backend or CMS here—just the UI and flow ideas that later informed the Next.js build.
-
-Keep it simple: iterate on components, extract what works, and port to the production stack.
+* Keep it simple and fast for UI prototyping.
+* No data layer here — just structure and flow.
+* Extract what works and port to the production Next.js stack later.
